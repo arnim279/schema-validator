@@ -16,8 +16,7 @@
     "test": "vitest",
     "format:check": "prettier --check .",
     "format:apply": "prettier --write .",
-    "prepublishOnly": "npm run build",
-    "publish": "npm publish --access public"
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "prettier": "^2.7.1",
