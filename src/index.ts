@@ -1,10 +1,10 @@
-export { SchemaErrorType } from "./findTypeError";
-export type { schema } from "./schema";
-export type { SchemaError } from "./SchemaError";
+export { SchemaErrorType } from "./findTypeError.js";
+export type { schema } from "./schema.js";
+export type { SchemaError } from "./SchemaError.js";
 
-import { findTypeError } from "./findTypeError";
-import { schema } from "./schema";
-import { SchemaError } from "./SchemaError";
+import { findTypeError } from "./findTypeError.js";
+import { schema } from "./schema.js";
+import { SchemaError } from "./SchemaError.js";
 
 /**
  * Checks if a value follows a specific schema.

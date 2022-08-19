@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { schema } from "..";
-import { findTypeError } from "../findTypeError";
+import { findTypeError } from "../findTypeError.js";
+import { schema } from "../index.js";
 
 describe("findTypeError", () => {
   let schema: schema;

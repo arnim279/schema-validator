@@ -1,23 +1,18 @@
 {
   "compilerOptions": {
+    /* module settings */
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+
     /* build settings */
     "outDir": "dist",
     "declaration": true,
-    "declarationDir": "dist/types",
-
-    /* module settings */
-    "target": "ES2022",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
 
     /* code settings */
     "strict": true,
-    "useDefineForClassFields": true,
     "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
     "skipLibCheck": true,
-    "experimentalDecorators": true,
     "noUncheckedIndexedAccess": true,
     "noFallthroughCasesInSwitch": true
   }

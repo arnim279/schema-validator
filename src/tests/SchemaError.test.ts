@@ -1,5 +1,5 @@
 import { assert, describe, it } from "vitest";
-import { findSchemaError, schema, SchemaErrorType } from "..";
+import { findSchemaError, schema, SchemaErrorType } from "../index.js";
 
 describe("SchemaError.only()", () => {
   let schema: schema = {

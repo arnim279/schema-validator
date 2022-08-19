@@ -1,4 +1,4 @@
-import { SchemaErrorType, typeError } from "./findTypeError";
+import { SchemaErrorType, typeError } from "./findTypeError.js";
 
 /**
  * SchemaError is a wrapper around the {@link typeError} type.
