@@ -1,0 +1,26 @@
+{
+  "name": "schemavalidator",
+  "version": "0.9.0",
+  "author": "arnim279",
+  "license": "GPL-3.0-or-later",
+  "files": [
+    "dist/"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "format:check": "prettier --check .",
+    "format:apply": "prettier --write .",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.1.0",
+    "typescript": "^4.7.4",
+    "vitest": "^0.22.1"
+  }
+}
