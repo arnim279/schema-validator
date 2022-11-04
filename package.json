@@ -1,6 +1,6 @@
 {
   "name": "@arnim279/schema-validator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Yet another schema validator",
   "author": "arnim279",
   "license": "GPL-3.0-or-later",
@@ -10,7 +10,7 @@
   },
   "type": "module",
   "exports": "./dist/index.js",
-  "types": "./dist/types/index.d.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
